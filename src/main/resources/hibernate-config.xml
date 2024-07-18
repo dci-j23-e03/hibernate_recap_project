@@ -17,8 +17,8 @@
     <property name="hibernate.hbm2ddl.auto">update</property>
 
     <!-- Use Annotation-based mapping metadata -->
-    <mapping class="org.example.entity.Employee"/>
-    <mapping class="org.example.entity.Licence"/>
+    <mapping class="org.example.entity.onetoone.Employee"/>
+    <mapping class="org.example.entity.onetoone.Licence"/>
 
   </session-factory>
 </hibernate-configuration>
